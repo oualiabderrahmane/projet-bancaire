@@ -1,0 +1,15 @@
+/* --- Infos du compte bancaire --- */
+.profile-container p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.profile-container strong {
+    color: #0078d7;
+    font-weight: bold;
+}
+
+.logout-btn {
+    margin-top: 20px;
+}

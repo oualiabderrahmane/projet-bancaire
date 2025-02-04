@@ -1,0 +1,13 @@
+/* Pied de page */
+footer {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}

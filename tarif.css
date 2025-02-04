@@ -1,0 +1,84 @@
+/* Style général pour la section */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour le titre */
+section h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style pour le tableau */
+.tarifs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour l'en-tête du tableau */
+.tarifs-table thead {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.tarifs-table th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+/* Style pour les cellules du tableau */
+.tarifs-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Style pour les lignes impaires (effet de zébrurage) */
+.tarifs-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Style pour les lignes au survol */
+.tarifs-table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour la dernière ligne (pas de bordure en bas) */
+.tarifs-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Style pour les cellules de tarif */
+.tarifs-table td:nth-child(2) {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Responsive design pour les petits écrans */
+@media (max-width: 600px) {
+    .tarifs-table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    .tarifs-table th,
+    .tarifs-table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
